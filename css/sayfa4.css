@@ -1,0 +1,325 @@
+#all
+{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:auto;
+
+
+	
+	background-image:url(../images/sayfa4/arkaplan.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+	
+	opacity: 0.8;
+	z-index:-100;
+	
+}
+
+
+#ustcontainer
+{
+	margin: auto;
+	margin-top:-35px;
+	width:1349.4px;
+	
+	border-radius: 0px 0px 20px 20px;
+	height:120px;
+	position: static;
+	top: 45px;
+	background-color: 	#FFA500;
+	
+	overflow:visible; 
+	box-shadow: 15px 15px 15px black;
+	
+	
+	top: 0px;
+}
+
+.logo1
+{
+	float: left;
+	background-image: url("../images/logo.jpg");
+	
+	background-color: white;
+
+	width: 100px;
+	height:100px;
+	background-size:color;
+	border-radius: 40%;
+	position: relative;
+	top:10px;
+
+	padding:0px;
+	margin:auto;
+	
+}
+.logo2
+{
+	float: right;
+	background-image: url("../images/logo.jpg");
+	
+	background-color: white;
+
+	width: 100px;
+	height:100px;
+	background-size:color;
+	border-radius: 40%;
+	position: absolute;
+	top:10px;
+	padding-top: 0px;
+
+	
+	margin-left: 1249.4px;
+	
+}
+
+.ustyazi
+{
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+	width:800px;
+	text-align:center;
+	
+	color:white;
+	margin-top:35px;
+	letter-spacing:3px;
+	font-size:30px;
+	font-family: "Comic Sans MS";
+	text-shadow: 8px 8px 8px black;
+	
+}
+
+#altmenu
+{
+	margin: auto;
+	margin-top:50px;
+	width:640px;
+	position: sticky;
+	top:160px;
+	right:347px;
+
+}
+
+#orta
+{
+	width: 900px;
+	height: auto; 
+	margin: auto;
+	margin-top:20px;	
+}
+
+ 
+ #ortaalan
+ {
+	 margin: 0;
+	 width: 644px;
+	 height: 1000px;
+	 background-color: 	#bebebe;
+	 float:left;
+	 overflow: auto;
+	 border-radius:10px;
+	 opacity: 0.8;
+
+	 
+ }
+
+#footer
+{
+	width: 900px;
+	border-radius: 10px;
+	height:100px;
+	background-color:  #ee7621;
+	margin:auto;	
+	margin-top:10px;
+	margin-left: -120px;
+	text-align: center;
+
+}
+
+#dikeymenu
+{
+	width: 120px;
+
+	margin-left:-350px;
+	margin-top: 0px;
+	border-radius:10px;
+	background-color: 	#8BC34A;
+	float:left;
+	
+
+	
+	
+}
+
+ #dikeymenu ul
+ {
+	 margin:0px;
+	 padding: 0px;
+	 list-style:none;
+	 
+ }
+
+  #dikeymenu ul li a
+ {
+	 
+	 display:block;
+	 width:120px;
+	 height:30px;
+	 text-align:center;
+	 text-decoration:none;
+	 font:bold 15px times new roman;
+	 color: black;
+	 padding-top: 8px;
+	 opacity: 0.8px;
+	 background-color: 	#8BC34A;
+	 transition: color 0.5s,background-color 0.5s;
+ }
+ 
+ #dikeymenu ul li a:hover
+ {
+	 background-color: black;
+	 color: #FBC02D;
+	 
+	 
+	 
+ }
+  #dikeymenu ul li a:hover#ilk
+ {
+	 border-radius:10px 10px 0px 0px;
+	 
+	 
+	 
+ }
+ #dikeymenu ul li a:hover#son
+ {
+	 border-radius:0px 0px 10px 10px;
+	 
+ }
+
+ #dikeymenu ul li ul
+ {
+	 display: none;
+	 position: absolute;
+	 left: 120px;
+	 top: 0px;
+
+ }
+ #dikeymenu ul li:hover ul
+ {
+	 display: block;
+ } 
+ #dikeymenu ul li 
+ {
+	 position: relative ;
+ }
+ 
+ #dikeymenu ul li a#ilk
+ {
+	border-radius:10px 10px 0px 0px;
+ }
+ #dikeymenu ul li a#son
+ {
+	border-radius:0px 0px 10px 10px;
+
+ }
+ #dikeymenu ul li ul  a#s1
+ {
+	 border-radius:10px 10px 0px 0px;
+	 
+ }
+ #dikeymenu ul li ul  a#s2
+ {
+	 border-radius:0px 0px 10px 10px;
+	 
+ }
+ #dikeymenu ul li ul  a#m1
+ {
+	 border-radius:10px 10px 10px 10px;
+	 
+ }
+ #solorta1
+ {
+	float:left;
+	 
+	margin-left:-350px;
+	margin-top: -750px;
+	height:315px; 
+	background-color: 		#76FF03;
+
+	width:320px;
+	border-radius:30px;
+	
+	 
+ }
+ #solorta2
+ {
+	float:left;
+	 
+	margin-left:-350px;
+	margin-top: -350px;
+	height:315px; 
+	background-color: 			#827717;
+
+	width:320px;
+	border-radius:30px;
+	
+	 
+ }
+ #sağorta1
+ {
+	float:right;
+	margin-right: -80px;
+
+	margin-top: -1000px;
+	height:315px; 
+	background-color: 	#FF8F00;
+	
+	width:320px;
+	border-radius:30px;
+	
+	 
+ }
+ #sağorta2
+ {
+	float:right;
+	margin-right: -80px;
+	margin-top: -600px;
+	height:315px; 
+	background-color: 	#D84315;
+	
+	width:320px;
+	border-radius:30px;
+	
+	 
+ }
+ #solorta1 img
+ {
+	margin-top: 65px;
+	margin-left: 10px;
+	border-radius:30px;
+ }
+ #solorta2 img
+ {
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius:30px;
+ }
+ #sağorta1 img
+ {
+	margin-top: 55px;
+	margin-left: 10px;
+	border-radius:30px;
+ }
+ #sağorta2 img
+ {
+	margin-top: 65px;
+	margin-left: 10px;
+	border-radius:30px;
+ }

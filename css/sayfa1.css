@@ -1,0 +1,347 @@
+#all
+{
+	
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:auto;
+
+
+	
+	background-image:url(../images/sayfa1/arkaplan.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	
+	
+	opacity: 0.8;
+	z-index:-100;
+	
+}
+
+
+#ustcontainer
+{
+	margin: auto;
+	margin-top:90px;
+	width:900px;
+	height:auto;
+	position: static;
+
+	background-color: 	#FFA500;
+	border-radius:20px;
+	overflow:visible; 
+	box-shadow: 15px 15px 15px black;
+	opacity:1;
+}
+
+.logo
+{
+	float: left;
+	background-image: url("../images/logo.jpg");
+	
+	background-color: white;
+	width: 100px;
+	height:100px;
+	background-size:color;
+	border-radius: 40%;
+	position: relative;
+	top:-40px;
+	padding:0px;
+	margin:0px;
+	
+}
+
+.ustyazi
+{
+	float:left;
+	
+	width:400px;
+	text-align:center;
+	
+	color:white;
+	margin-top:25px;
+	letter-spacing:3px;
+	font-size:30px;
+	font-family: "Comic Sans MS";
+	text-shadow: 8px 8px 8px black;
+	
+}
+
+#altmenu
+{
+	margin: auto;
+	margin-top:50px;
+	width:640px;
+	
+	
+	
+
+	
+}
+
+#ustmenu
+{
+	width:644px;
+
+	height: 60px;
+	margin-right:44px;
+	float: middle;
+	background-color: 	#FFA500;
+	border-radius:20px;
+	
+}
+
+#ustmenu ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	
+	
+}
+#ustmenu ul li
+{
+	float: left;
+	
+	position: relative;
+}
+
+#ustmenu ul li a
+{
+	display: block;
+	width: 145px;
+	height: 33px;
+	padding:8px;
+	padding-top: 20px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	background-color: 	#FFA500;
+	transition: color 0.5s,background-color 0.5s;
+	
+}
+
+
+
+#ustmenu ul li a:hover
+{
+	background-color:gray;
+	color:#FFA500;
+	
+}
+
+#ustmenu ul li a:hover#ilk
+{
+	border-radius:20px 0px 0px 20px ;
+	
+}
+
+#ustmenu ul li a:hover#son
+{
+	border-radius:0px 20px 20px 0px ;
+	
+}
+
+#ustmenu ul li ul
+{
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+
+}
+
+#ustmenu ul li:hover ul
+{
+	display: block;
+
+}
+
+#ustmenu ul li a#ilk
+{
+	border-radius:20px 0px 0px 20px ;
+}
+#ustmenu ul li a#son
+{
+	border-radius:0px 20px 20px 0px ;
+}
+#ustmenu ul li ul  a#m1
+{
+	border-radius:0px 0px 20px 20px;
+	
+}
+#ustmenu ul li ul  a#m2
+{
+	border-radius:20px 20px 0px 0px;
+	
+}
+#ustmenu ul li ul  a#s1
+{
+	border-radius:20px 20px 0px 0px;
+	
+}
+#ustmenu ul li ul  a#s2
+{
+	border-radius:0px 0px 20px 20px;
+	
+}
+
+#orta
+{
+	width: 900px;
+	height: auto; 
+	margin: auto;
+	margin-top:20px;	
+}
+
+#dikeymenu
+{
+	width: 120px;
+	margin-left:0px;
+	border-radius:10px;
+	background-color: 	#cdb7b5;
+	float:left;
+	
+
+	
+	
+}
+
+ 
+ #ortaalan
+ {
+	 margin: 0;
+	 margin-left: 130px;
+	 width: 644px;
+	 height: 1000px;
+	 background-color: #ffcc99;
+	 float:left;
+	 overflow: auto;
+	 border-radius:10px;
+
+	 
+ }
+ 
+ #sağorta
+ {
+	 float:left;
+	 
+	 margin-left:800px;
+	 margin-top: -1100px;
+	 height:390px; 
+	 background-color: lightblue;
+	 
+	 width:120px;
+	 border-radius:30px;
+	 
+ }
+ #sağorta img
+ {
+	 width: 65px;
+	 height: 65px;
+	 margin-left: 4px;
+	 
+ }
+  
+ #solorta
+ {
+	float:left;
+	 
+	margin-left:-220px;
+	margin-top: -1210px;
+	height:415px; 
+	background-color: #FF7F24;
+	
+	width:320px;
+	border-radius:30px;
+	
+	 
+ }
+ .solortayazi
+ {
+	 
+	
+	
+	width:320px;
+	text-align:center;
+	
+	color:black;
+	margin: auto;
+	letter-spacing:3px;
+	font-size:30px;
+	font-family: "times new roman";
+	
+	
+ }
+
+  
+
+
+#footer
+{
+	width: 900px;
+	border-radius: 10px;
+	height:100px;
+	background-color:  #ee7621;
+	margin:auto;	
+	margin-top:10px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #ededed;
+}
+
+.loader {
+	max-width: 15rem;
+	width: 100%;
+	height: auto;
+	stroke-linecap: round;
+}
+
+circle {
+	fill: none;
+	stroke-width: 3.5;
+	animation-name: preloader;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transform-origin: 170px 170px;
+	will-change: transform;
+
+	&:nth-of-type(1) {
+		stroke-dasharray: 550px;
+	}
+
+	&:nth-of-type(2) {
+		stroke-dasharray: 500px;
+	}
+
+	&:nth-of-type(3) {
+		stroke-dasharray: 450px;
+	}
+
+	&:nth-of-type(4) {
+		stroke-dasharray: 300px;
+	}
+
+	@for $i from 1 through 4 {
+		&:nth-of-type(#{$i}) {
+			animation-delay: -#{$i * 0.15}s;
+		}
+	}
+}
+
+@keyframes preloader {
+	50% {
+		transform: rotate(360deg);
+	}
+}
